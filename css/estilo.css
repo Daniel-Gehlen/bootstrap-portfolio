@@ -237,16 +237,16 @@ h3 {
 
 /* Estilize o contêiner card-deck */
 .card-deck {
-	display: flex;
+	display: block;
 	justify-content: space-between;
   }
   
   /* Estilize os cards individuais */
   .card {
-	width: 30%; /* Defina a largura desejada para os cards */
+	width: 100%; /* Defina a largura desejada para os cards */
 	background-color: #f0f0f0; /* Cor de fundo para os cards */
-	margin: 10px;
-	padding: 10px;
+
+	padding: 20px;
 	border: 2px solid #9f9e9e;
 	border-radius: 5px;
   }
