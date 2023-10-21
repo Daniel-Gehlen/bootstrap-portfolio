@@ -1,0 +1,364 @@
+/* Layout */
+html, body, #home, #about, #skills {
+	scroll-behavior: smooth;
+	height: 100%;
+	overflow-x: hidden;
+}
+
+body {
+	background: url(../imagens/capa4.png);
+	height: 100%;
+	background-attachment: fixed;
+	background-size: cover;
+	font-family: Helvetica, Arial, sans-serif;
+	clear: both;
+}
+
+body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+	bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+	background-size: cover;
+    background-color: rgba(255, 0, 0, 0.5);
+    z-index: -1;
+}
+
+#recursos {
+	padding: 150px 0px 150px 0px;
+	margin: 0px 0px -100px 0px;
+	background-color: rgba(143, 0, 0, 0.752);
+    z-index: -1;
+}
+
+#recursos {
+	color: white;
+}
+
+#recursos h2 {
+	color: white;
+}
+
+#recursos h3 {
+	color: rgb(0, 140, 255);
+}
+
+/* Barra de navegação */
+nav.navbar-transparente {
+	padding: 15px 0px;
+	background: rgba(0,0,0,0.6);
+}
+
+.navbar-light .navbar-nav .nav-link {
+	color: white;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+	color: rgb(0, 140, 255);
+}
+
+.navbar-light .navbar-toggler {
+    color: rgba(255,255,255,.5);
+    border-color: rgba(255,255,255,0.5);
+}
+
+.divisor {
+	width: 1px;
+	background: white;
+	margin: 12px 15px;
+}
+
+/* Capa */
+.capa {
+	text-align: center;
+}
+
+.btn-custom {
+	color: white;
+	border-radius: 500px;
+	-webkit-border-radius: 500px;
+    -moz-border-radius: 500px;
+    text-transform: uppercase;
+    transition: background 0.4s, color 0.4s;
+    padding: 10px 20px;
+}
+
+.btn-capa {
+	background:rgba(0, 140, 255);
+}
+
+.btn-capa:hover {
+	background:  rgb(255, 255, 255);
+	color: rgb(0, 0, 0);
+}
+
+.btn-capa2 {
+	border: 2px solid white;
+}
+
+.btn-capa2:hover {
+	background-color: white;
+	color: black;
+}
+
+.carousel-control-next, .carousel-control-prev {
+	width: 5%;
+}
+
+.btnTop {
+	fill: rgba(0, 140, 255);
+	background:none;
+	bottom: 200px;
+	height: 30px;
+	right: 30px;
+	border-radius: 400px;
+	position: fixed;
+	line-height: 30px;
+	text-decoration: none;
+	text-align: center;
+}
+
+.btnTop:hover {
+	background-color: rgba(0, 140, 255);
+	color: black;
+}
+
+/* Estrutura conteúdos */
+.caixa {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+#servicos {
+	background: white;
+}
+
+#servicos h2, h3 {
+	color: rgba(0, 140, 255);
+}
+
+.centered-button {
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	transform: translateX(-50%);
+  }
+  
+
+.albuns {
+	padding: 20px 0;
+}
+
+.rotacionar {
+	-ms-transform: rotate(30deg);
+    -webkit-transform: rotate(30deg);
+    transform: rotate(30deg);
+	padding-left: 80px;
+	padding-top: 200px;
+	width: max-content;
+}
+
+/* Rodapé */
+footer {
+	background: #000;
+	padding: 120px 0px 50px 0px;
+	margin: 0px 0px 0px 0px;
+	position: relative;
+	clear: both;
+}
+
+footer h4 {
+	color: #919496;
+	font-size: 0.8em;
+	text-transform: uppercase;
+}
+
+footer .navbar-nav a {
+	color: white;
+	font-size: 0.8em;
+}
+
+footer .navbar-nav a:hover {
+	color: rgba(0, 140, 255);
+	text-decoration: none;
+}
+
+footer ul {
+	list-style: none;
+}
+
+footer ul li {
+	float: right;
+	margin: 0 5px;
+}
+
+/* Tipografia */
+h1 {
+	font-weight: 900;
+	letter-spacing: -0.05em;
+	margin-bottom: 50px;
+	color: white;
+}
+
+h2 {
+	font-size: 3em;
+	font-weight: 700;
+	letter-spacing: -0.04em;
+}
+
+h3 {
+	font-size: 2em;
+	font-weight: 700;
+	letter-spacing: -0.04em;
+}
+
+#perfil {
+	padding-top: 30px;
+}
+
+.skills {
+		/* Estilos comuns para todas as tabelas */
+		border-collapse: none;
+		width: 100%;
+		font-size: 16px;
+		padding: 10px; /* Adicione o padding desejado */
+		/* Outros estilos comuns */
+		margin-top: 100px; /* Ajuste a margem superior conforme desejado */
+		font-weight: bold;
+		color: #ffffff;
+	  }
+
+.skills ul {
+	color: #000;
+	  }
+
+/* Estilize o contêiner card-deck */
+.card-deck {
+	display: flex;
+	justify-content: space-between;
+  }
+  
+  /* Estilize os cards individuais */
+  .card {
+	width: 30%; /* Defina a largura desejada para os cards */
+	background-color: #f0f0f0; /* Cor de fundo para os cards */
+	margin: 10px;
+	padding: 10px;
+	border: 2px solid #9f9e9e;
+	border-radius: 5px;
+  }
+  
+  /* Estilize a imagem dentro do card */
+  .card img {
+	width: 100%;
+	height: auto;
+  }
+  
+  /* Estilize o título dos cards */
+  .card .card-title {
+	color: rgba(0, 140, 255); /* Cor do título */
+  }
+  
+  /* Estilize o parágrafo dentro do card */
+  .card .card-text {
+	color: #000; /* Cor do texto */
+  }
+  
+  /* Estilize o rodapé dos cards */
+  .card .card-footer {
+	background-color: #f0f0f0; /* Cor de fundo para o rodapé */
+	text-align: right;
+  }
+  
+  /* Estilize o texto do rodapé */
+  .card .text-muted {
+	color: #888; /* Cor do texto do rodapé */
+  }
+  
+/* Estilos para a div .faqs */
+.faqs {
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+/* Estilos para a lista de FAQs */
+.faq-list {
+    list-style: none;
+    padding: 0;
+}
+
+/* Estilos para cada item de FAQ */
+.faq-item {
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+
+/* Estilos para a pergunta */
+.question {
+    font-weight: bold;
+    cursor: pointer;
+    padding: 10px;
+    background-color: #eee;
+}
+
+/* Estilos para a resposta */
+.answer {
+    display: none;
+    padding: 10px;
+}
+
+/* Estilos para mostrar a resposta ao clicar na pergunta */
+.faq-item.open .answer {
+    display: block;
+}
+
+
+  
+@media (min-width: 992px) {
+	/* Estilos específicos para telas maiores (notebook e desktop) */
+}
+  
+  
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+	.btn-custom {
+		margin: 10px 15px;
+		font-size: 1em;
+	}
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+	h1 {
+		font-size: 3em;
+	}
+	.btn-custom {
+		margin: 10px 15px;
+	}
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+	h1 {
+		font-size: 4em;
+	}
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	h1 {
+		font-size: 5em;
+	}
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+	h1 {
+		font-size: 6em;
+	}
+}
