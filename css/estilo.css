@@ -71,6 +71,20 @@ nav.navbar-transparente {
 	margin: 12px 15px;
 }
 
+.submenu {
+	display: white;
+  }
+/* Estilo para links do submenu */
+.submenu a {
+	color: white; /* Cor desejada para os links do submenu */
+	text-decoration: none; /* Remove o sublinhado */
+  }
+  
+  .submenu a:hover {
+	color: rgb(0, 140, 255); /* Cor desejada para os links do submenu no hover */
+	text-decoration: underline; /* Adiciona sublinhado no hover, se necessário */
+  }
+  
 /* Capa */
 .capa {
 	text-align: center;
