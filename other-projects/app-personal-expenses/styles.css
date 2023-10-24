@@ -1,0 +1,4 @@
+/* Altere "red" para a cor desejada */
+.navbar.bg-primary {
+    background-color: red;
+}
