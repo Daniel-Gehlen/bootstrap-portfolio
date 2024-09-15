@@ -1,6 +1,6 @@
 # My portfolio website, which I created using HTML, CSS, Bootstrap, and JavaScript. 
 
-![](site-bootstrap.jpg)
+![](site-bootstrap.jpeg)
 
 ## This site is designed to showcase my skills and projects while providing a user-friendly experience. Here’s how I implemented the requirements:
 
